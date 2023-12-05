@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Persamaan Kuadrat</title>
+  <link rel="stylesheet" href="persamaankuadrat.css">
+</head>
+<body>
+  <header>
+    <h1><p align="center">KALKULATOR PERSAMAAN KUADRAT</p></h1>
+    <p align="center">
+    <marquee direction="right">TUGAS BESAR KALKULUS SEMESTER 1 </marquee>
+      </header>
+  <fieldset>
+    <legend><h1>Definisi Persamaan Kuadrat</h1></legend>
+      <p>Persamaan kuadrat adalah salah satu persamaan dalam rumus matematika dan memiliki variabel dengan pangkat yang tertinggi <br> sehingga kuadrat akan dihasilkan dengan bilangan yang sama.</p>
+      <p>Bentuk Persamaan Kuadrat
+        <p>ax² + bx + c = 0</p>
+      <ol type="1">
+        <li>X merupakan bentuk variabel</li>
+        <li>A merupakan bentuk koefisien kuadrat dari x2</li>
+        <li>B merupakan bentuk koefisien liner dari x</li>
+        <li>C merupakan bentuk konstanta</li>
+      </ol>
+      </p>
+  </fieldset>
+  <fieldset>
+    <legend>KALKULATOR</legend>
+    <h1>MASUKKAN ax² + bx + c </h1>
+  <label for="a">nilai a:</label>
+  <input type="number" id="a" step="0.01">
+  <br><br>
+  <label for="b">nilai b:</label>
+  <input type="number" id="b" step="0.01">
+  <br><br>
+  <label for="c">nilai c:</label>
+  <input type="number" id="c" step="0.01">
+  <br><br>
+  <button onclick="hitungAkar()">Hitung</button>
+</fieldset>
+<fieldset>
+  <legend>HASIL</legend>
+  <p>X1: <span id="x1"></span></p>
+  <p>X2: <span id="x2"></span></p>
+  <script src="persamaankuadrat.js"></script>
+</fieldset>
+<br>
+<footer>
+  &copy; Hafizh Nur Wahid2023
+</footer>
+</body>
+</html>
